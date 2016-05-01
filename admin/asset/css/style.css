@@ -1,0 +1,531 @@
+.full-center {
+    height: 100vh;
+    background: #136a8a; /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #136a8a, #267871); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #136a8a, #267871); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-size: cover;
+    background-position: center;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    text-align: center;
+}
+
+.full-center .card {
+    padding-bottom: 20px;
+}
+
+.full-center .card-image {
+    padding-top: 20px;
+    background-color: #ee6e73;
+}
+
+.full-center .card-image .material-icons {
+    color: white;
+}
+
+.full-center #login, .full-center #register {
+    float: none;
+    margin: auto;
+}
+
+.full-center #register-button {
+    margin-bottom: 25px;
+}
+
+label {
+    width: 100%;
+    text-align: left;
+}
+
+nav.top-nav {
+    height: 122px;
+    box-shadow: none;
+}
+
+nav.top-nav a.page-title {
+    line-height: 122px;
+    font-size: 48px;
+}
+
+a.button-collapse.top-nav {
+    position: absolute;
+    text-align: center;
+    height: 48px;
+    width: 48px;
+    left: 7.5%;
+    top: 0;
+    float: none;
+    margin-left: 1.5rem;
+    color: white;
+    font-size: 32px;
+    z-index: 2;
+}
+
+a.button-collapse.top-nav.full {
+    line-height: 122px;
+}
+
+.side-nav.fixed {
+    overflow: hidden;
+}
+
+.side-nav.fixed li {
+    line-height: 44px;
+}
+
+.side-nav.fixed li:hover, .side-nav.fixed li:active {
+    background-color: rgba(0, 0, 0, 0.05);
+}
+
+.side-nav.fixed li.logo {
+    text-align: center;
+    margin-top: 32px;
+    margin-bottom: 16px;
+    border-bottom: 1px solid #dddddd;
+}
+
+.side-nav.fixed li.logo a {
+    height: 57px;
+    margin-bottom: 32px;
+}
+
+.side-nav.fixed li.logo a h1 {
+    font-size: 48px;
+    color: #ee6e73;
+}
+
+.side-nav.fixed li.logo:hover {
+    background-color: transparent;
+}
+
+.side-nav.fixed li a {
+    font-size: 13px;
+    line-height: 44px;
+    height: 44px;
+}
+
+.side-nav.fixed ul.collapsible-accordion {
+    background-color: white;
+}
+
+.side-nav.fixed:hover {
+    overflow-y: auto;
+}
+
+.bold > a {
+    font-weight: bold;
+}
+
+@media only screen and (min-width: 993px) {
+    .container {
+        width: 85%;
+    }
+
+    nav ul a {
+        line-height: 122px;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    nav .nav-wrapper {
+        text-align: center;
+    }
+
+    nav .nav-wrapper a.page-title {
+        font-size: 36px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    a.button-collapse.top-nav {
+        left: 5%;
+    }
+}
+
+input[type=text] + label:after,
+input[type=password] + label:after,
+input[type=email] + label:after,
+input[type=url] + label:after,
+input[type=time] + label:after,
+input[type=date] + label:after,
+input[type=datetime-local] + label:after,
+input[type=tel] + label:after,
+input[type=number] + label:after,
+input[type=search] + label:after,
+textarea.materialize-textarea + label:after {
+    top: 40px;
+}
+
+header, main, footer {
+    padding-left: 240px;
+}
+
+/*********************************************
+*
+* Global Styles
+*
+**********************************************/
+
+.progress {
+    display: none;
+}
+
+/*********************************************
+*
+* Installation Page
+*
+**********************************************/
+
+#installation main {
+    padding-left: 0;
+}
+
+#installation #brand-logo {
+    max-width: 77px;
+    max-height: 54px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+}
+
+#installation .row .col {
+    padding: 0;
+}
+
+#installation form {
+    max-width: 350px;
+}
+
+#installation .input-field label {
+    left: 0;
+}
+
+#installation button[type=submit] {
+    width: 100%;
+}
+
+/*********************************************
+*
+* Login Page
+*
+**********************************************/
+
+#login main {
+    padding-left: 0;
+}
+
+#login #brand-logo {
+    max-width: 77px;
+    max-height: 54px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+}
+
+#login .input-field label {
+    left: 0;
+}
+
+#login .row .col {
+    padding: 0;
+}
+
+#login form {
+    max-width: 350px;
+}
+
+#login button[type=submit] {
+    width: 100%;
+}
+
+/*********************************************
+*
+* Dashboard
+*
+**********************************************/
+
+.card .card-action a:last-child {
+    margin-right: 0;
+}
+
+/*********************************************
+*
+* Builder
+*
+**********************************************/
+
+ul.frmb {
+    min-height: 400px;
+}
+
+.frmb a.btn {
+    color: white;
+}
+
+#rendered-form {
+    padding: 20px;
+    -webkit-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+    -mox-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+}
+
+#fdata {
+    padding: 20px;
+    -webkit-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+    -mox-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+}
+
+.frm-fld .available-roles {
+    margin: 0;
+    padding-right: 0;
+    padding-left: 0;
+    width: 100%;
+    background: transparent;
+    box-shadow: none;
+}
+
+#builder .input-field label {
+    position: relative;
+    top: inherit;
+    left: inherit;
+}
+
+#builder .input-field label.active {
+    -webkit-transform: translateY(0%);
+    -moz-transform: translateY(0%);
+    -ms-transform: translateY(0%);
+    -o-transform: translateY(0%);
+    transform: translateY(0%);
+}
+
+@media only screen and (max-width: 767px) {
+    ul.frmb {
+        min-height: 200px;
+    }
+
+    .stage-wrap {
+        float: none;
+        width: 100%;
+        margin-right: 0;
+    }
+
+    .cb-wrap {
+        width: 100%;
+        float: none;
+    }
+
+    .view-xml {
+        display: none;
+    }
+}
+
+/*********************************************
+*
+* Settings Page
+*
+**********************************************/
+
+#settings form,
+#settings .switch {
+    padding: 20px;
+    -webkit-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+    -moz-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+}
+
+@media only screen and (max-width: 600px) {
+    #settings .many-buttons .col.s12 {
+        text-align: center;
+    }
+
+    #settings .many-buttons button,
+    #settings .many-buttons a {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    #settings .many-buttons button:last-child {
+        margin-bottom: 0;
+    }
+}
+
+/*********************************************
+*
+* Testimonial Page
+*
+**********************************************/
+#testimonial .counter {
+    padding-top: 20px;
+    text-align: center;
+}
+
+#testimonial .card-title img {
+    max-width: 80px;
+}
+
+#testimonial .many-buttons .col.s12 {
+    text-align: center;
+}
+
+@media only screen and (max-width: 600px) {
+    #testimonial .many-buttons button,
+    #testimonial .many-buttons a {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    #testimonial .many-buttons .col:last-child button {
+        margin-bottom: 0;
+    }
+}
+
+/*********************************************
+*
+* Testimonial Page
+*
+**********************************************/
+
+#home img {
+    max-width: 80px;
+}
+
+#home .card-title {
+    font-size: 24px;
+    font-weight: 300;
+    margin: 0;
+}
+
+#home .testimonial-grid {
+    padding: 20px;
+    text-align: center;
+    margin: 15px 0;
+}
+
+#home #carousel-clients img {
+    max-width: 80px;
+}
+
+/*********************************************
+*
+* Feedback Page { Grid }
+*
+**********************************************/
+#feedback-grid img {
+    max-width: 80px;
+}
+
+#feedback-grid .card-title {
+    font-size: 24px;
+    font-weight: 300;
+    margin: 0;
+}
+
+#feedback-grid .testimonial-grid {
+    padding: 20px 20px 0 20px;
+    text-align: center;
+    margin: 15px 0;
+}
+
+/*********************************************
+*
+* Profile Page
+*
+**********************************************/
+
+#profile form,
+#profile .switch {
+    padding: 20px;
+    -webkit-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+    -moz-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+}
+
+/*********************************************
+*
+* Homepage Carousel
+*
+**********************************************/
+
+.client-cover {
+    padding: 40px;
+}
+
+.client-cover #carousel-clients h4 {
+    color: #424242;
+    line-height: 30px;
+    font-size: 20px;
+}
+
+.client-cover #carousel-clients h3 {
+    color: #000000;
+    line-height: 35px;
+    font-size: 25px;
+}
+
+.client-cover #carousel-clients .clients-img {
+    border: 3px solid #EE6E73;
+    margin: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.fImg {
+    border: 2px solid gray;
+    width: 100%;
+    height: 100%;
+    max-width: 100px;
+    max-height: 100px;
+}
+
+/*********************************************
+*
+* Index Page
+*
+**********************************************/
+
+#index form {
+    margin: 20px 0;
+}
+
+#index img {
+    max-width: 80px;
+}
+
+#index .card-title {
+    font-size: 24px;
+    font-weight: 300;
+    margin: 0;
+}
+
+#index .testimonial-grid {
+    padding: 20px;
+    text-align: center;
+    margin: 20px 0;
+}
+
+#index #carousel-clients img {
+    max-width: 80px;
+}
+
+/*********************************************
+*
+* Global Responsive Styles
+*
+**********************************************/
+
+@media only screen and (max-width: 992px) {
+    header, main, footer {
+        padding-left: 0;
+    }
+}
