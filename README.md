@@ -1,4 +1,4 @@
-# Royal drag and drop testimonial builder and managment system
+# Royal drag and drop testimonial builder and management system
 
 To learn how to use see documentation here http://prappo.github.io/royal/documentation/
 
