@@ -63,14 +63,14 @@
         </li>
 
         <li class="bold">
-            <a href="home">Dashboard</a>
+            <a href="home.php">Dashboard</a>
         </li>
         <li class="bold">
-            <a href="build">Builder</a>
+            <a href="build.php">Builder</a>
         </li>
 
         <li class="bold">
-            <a href="settings">Settings</a>
+            <a href="settings.php">Settings</a>
         </li>
         <li class="bold">
             <a href="testimonials">Testimonials</a>
