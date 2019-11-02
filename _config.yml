@@ -1,0 +1,8 @@
+title: Royal
+description: Drag and Drop Testimonial Builder
+google_analytics: 
+show_downloads: true
+theme: jekyll-theme-minimal
+
+gems:
+  - jekyll-mentions
